@@ -29,9 +29,7 @@ setup(
     include_package_data=True,
     packages=find_packages(),
     package_data={'': ['mpv-2.dll']},
-    package_dir={
-        'anicli':'anicli'}, 
-        # 'mpv': 'anicli'},
+    package_dir={'anicli':'anicli'}, 
     license='MIT',
     zip_safe=False,
     keywords='ani-cli vostfr',
@@ -51,7 +49,7 @@ setup(
     # test_suite='tests',
     entry_points={
         'console_scripts': [
-            'anicli=anicli.anicli:main',
+            'ani-cli=anicli.anicli:main',
         ],
     },
 )
