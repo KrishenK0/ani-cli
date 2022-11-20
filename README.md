@@ -1,7 +1,40 @@
-https://stackoverflow.com/questions/54889023/python-requests-html-submit-a-form-by-clicking-a-button-using-jquery
+<p align=center></p>
 
-**Important**\
-https://stackoverflow.com/questions/26393231/using-python-requests-with-javascript-pages
+<h3 align="center">
+A cli to browse and watch anime in VOSTFR. This tool scrapes the site <a href="https://animixplay.to/">animixplay.</a>
+</h3>
 
-"DOC"\
-https://requests.readthedocs.io/projects/requests-html/en/latest/
+<h4 align="center">Inspired by <a href="https://github.com/pystardust">pystardust</a></a>
+</h4>
+	
+<h1 align="center">
+	Showcase
+</h1>
+
+## Table of Contents
+
+- [Dependencies](#Dependencies)
+- [Homies](#Homies)
+- [Disclaimer](./disclaimer.md)
+
+## Dependencies
+
+- beautifulsoup4 (4.11.1)
+- Pillow (9.3.0)
+- requests (2.28.1)
+- selenium (4.6.0)
+
+## Homies 
+
+* [ani-cli](https://github.com/pystardust/ani-cli): ani-cli written in shell that scrape animixplay (Shell)
+* [animdl](https://github.com/justfoolingaround/animdl): Ridiculously efficient, fast and light-weight (supports most sources: animixplay, 9anime...) (Python)
+* [anime-helper-shell](https://github.com/Atreyagaurav/anime-helper-shell): A python shell for searching, watching, and downloading anime (Python)
+* [anipy-cli](https://github.com/sdaqo/anipy-cli): ani-cli rewritten in python (Python)
+* [dra-cla](https://github.com/CoolnsX/dra-cla): ani-cli equivalent for korean dramas (Shell)
+* [kaa.si-cli](https://github.com/Soviena/kaa.si-cli): Stream anime from kaa.si and sync with anilist (Python)
+* [lobster](https://github.com/justchokingaround/lobster): Life action movies and series fom the terminal (Shell)
+* [manga-cli](https://github.com/7USTIN/manga-cli): Read manga in the cli (Shell)
+* [mangal](https://github.com/metafates/mangal): Download & read manga from any source with anilist sync (Go)
+* [mov-cli](https://github.com/mov-cli/mov-cli): Watch movies/tv shows in the cli (work in progress) (Python/Shell)
+* [saikou](https://github.com/saikou-app/saikou): Best android app for anime/manga with anilist integration (Kotlin)
+* [tv-cli](https://github.com/Spaxly/tv-cli): Watch live TV in the cli (Shell)
