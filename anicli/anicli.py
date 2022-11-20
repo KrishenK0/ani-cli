@@ -1,10 +1,12 @@
+#!/usr/bin/env python3
 # coding:utf-8
+
 import click
 import os
 import json
 import re
 os.environ["PATH"] = os.path.dirname(__file__) + os.pathsep + os.environ["PATH"]
-import mpv
+from .mpv import *
 import requests
 from bs4 import BeautifulSoup
 from selenium.webdriver import Chrome, ChromeOptions
@@ -76,7 +78,7 @@ def openAnime(anime_url):
         # player.set_media(Media)
         # player.play()
 
-        player = mpv.MPV(
+        player = MPV(
             loglevel='no',
             script_opts='title="TEST - TITLE",force-media-title="TEST - TITLE"',
             input_default_bindings=True,

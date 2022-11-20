@@ -19,7 +19,6 @@ from ctypes import *
 import ctypes.util
 import threading
 import os
-os.add_dll_directory(os.getcwd())
 import sys
 from warnings import warn
 from functools import partial, wraps
