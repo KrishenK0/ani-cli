@@ -1,7 +1,7 @@
 <p align=center></p>
 
 <h3 align="center">
-A cli to browse and watch anime in VOSTFR. This tool scrapes the site <a href="https://animixplay.to/">animixplay.</a>
+A cli to browse and watch anime in VOSTFR. This tool scrapes the site <a href="http://mavanimes.cc/">mavanimes</a>.
 </h3>
 
 <h4 align="center">Inspired by <a href="https://github.com/pystardust">pystardust</a></a>
