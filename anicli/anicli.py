@@ -1,22 +1,20 @@
-#!/usr/bin/env python3
 # coding:utf-8
 
 import click
 import os
 import json
 import re
+from sys import platform
 os.environ["PATH"] = os.path.dirname(__file__) + os.pathsep + os.environ["PATH"]
 from .mpv import *
 import requests
 from bs4 import BeautifulSoup
-from selenium.webdriver import Chrome, ChromeOptions
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 
 base_url = 'http://mavanimes.cc'
 headers = {"x-requested-with": "XMLHttpRequest"}
-
 
 class bcolors:
     HEADER = '\033[95m'
@@ -33,15 +31,28 @@ class bcolors:
     UNDERLINE = '\033[4m'
 
 
-def openAnime(anime_url):
-    # Settings options
-    options = ChromeOptions()
-    options.add_argument('log-level=3')  # show fatal log
-    options.add_experimental_option(
-        'excludeSwitches', ['enable-logging'])  # disable devtool warn
-    options.headless = True
+def openAnime(anime_url, browser='firefox'):
+    if browser == 'chrome':
+        from selenium.webdriver import Chrome, ChromeOptions
+        # Settings options
+        options = ChromeOptions()
+        options.add_argument('log-level=3')  # show fatal log
+        options.add_experimental_option(
+            'excludeSwitches', ['enable-logging'])  # disable devtool warn
+        options.headless = True
 
-    driver = Chrome(options=options)
+        driver = Chrome(options=options)
+    else:
+        if platform == "linux" or platform == "linux2":
+            pass
+        from selenium.webdriver import Firefox, FirefoxOptions
+        # Settings options
+        options = FirefoxOptions()
+        options.add_argument('log-level=3')  # show fatal log
+        options.headless = True
+
+        driver = Firefox(options=options)
+
     driver.get(base_url + anime_url)
 
     print(f'{bcolors.OKGREEN}[+] Searching the url...{bcolors.END}')
