@@ -1,6 +1,4 @@
 #!/usr/bin/env python
-
-import distutils.sysconfig
 try:
     from setuptools import setup, find_packages
 except ImportError:
