@@ -13,9 +13,17 @@ A cli to browse and watch anime in VOSTFR. This tool scrapes the site <a href="h
 
 ## Table of Contents
 
+- [Usage](#Usage)
 - [Dependencies](#Dependencies)
 - [Homies](#Homies)
 - [Disclaimer](./disclaimer.md)
+
+## Usage
+
+To start the CLI, use the command : 
+```
+$ ani-cli
+```
 
 ## Dependencies
 
