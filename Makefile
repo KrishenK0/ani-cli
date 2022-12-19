@@ -59,5 +59,5 @@ dist: clean
 	python setup.py bdist_wheel
 	ls -l dist
 
-install: clean
+install:
 	python setup.py install
