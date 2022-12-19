@@ -102,5 +102,7 @@ venv.bak/
 # mkdocs documentation
 /site
 
+PKGBUILD
+
 # mypy
 .mypy_cache/
