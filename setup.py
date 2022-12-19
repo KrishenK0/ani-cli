@@ -32,7 +32,7 @@ setup(
     package_dir={'anicli':'anicli'}, 
     license='MIT',
     zip_safe=False,
-    keywords='ani-cli, vostfr',
+    # keywords='ani-cli, vostfr',
     classifiers=[
         'Development Status :: 4 - Beta',
         'Environment :: Console',
