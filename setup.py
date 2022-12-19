@@ -56,6 +56,6 @@ try:
             ],
         },
     )
-except e:
+except:
     print(f"Error : {e}\nRelease tested version : 3.10.6 (Try this version)")
     pass
