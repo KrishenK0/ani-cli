@@ -15,6 +15,7 @@ A cli to browse and watch anime in VOSTFR. This tool scrapes the site <a href="h
 
 - [Usage](#Usage)
 - [Dependencies](#Dependencies)
+- Install (#Install)
 - [Homies](#Homies)
 - [Disclaimer](./disclaimer.md)
 
@@ -24,6 +25,18 @@ To start the CLI, use the command :
 ```
 $ ani-cli
 ```
+
+## Install
+### Native Packages
+[![Packaging status](https://repology.org/badge/vertical-allrepos/ani-cli-vostfr.svg)](https://repology.org/project/ani-cli-vostfr/versions)
+### Linux
+#### Arch Linux
+Build and install from the AUR:
+```
+yay -S ani-cli-vostfr-git
+```
+
+
 
 ## Dependencies
 
