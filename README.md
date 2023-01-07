@@ -15,7 +15,7 @@ A cli to browse and watch anime in VOSTFR. This tool scrapes the site <a href="h
 
 - [Usage](#Usage)
 - [Dependencies](#Dependencies)
-- Install (#Install)
+- [Install](#Install)
 - [Homies](#Homies)
 - [Disclaimer](./disclaimer.md)
 
